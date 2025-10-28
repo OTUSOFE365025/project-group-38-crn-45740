@@ -8,4 +8,4 @@
 | UC-6: Campus-wide announcement | An administrator will be able to send campus-wide announcements by using the assistant. | RA3, R5, R3, R1 |
 | UC-7: Maintaining the system | A system maintainer will be able to view a monitoring dashboard to view errors, latency and such. Depending on their permissions, they can also view model logs, initiate user data backups, and configure the AI model and API keys. | RM2-4, RM6-7 |
 
-<img width="320" height="265" alt="Screenshot 2025-10-28 at 2 46 59 PM Medium" src="https://github.com/user-attachments/assets/ff8a27ab-6ddb-42cc-8e10-f3958eb5ee85" />
+<img width="800" height="661" alt="Screenshot 2025-10-28 at 2 46 59 PM" src="https://github.com/user-attachments/assets/1061875b-9c49-4160-939e-5de5ca9d8587" />
