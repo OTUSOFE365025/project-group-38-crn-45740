@@ -105,4 +105,21 @@ A basic deployment diagram for the chosen architecture mentioned above. The data
 |  |  | QA-5 | The selected reference architecture supports authentication, which will be provided by the institutional sign in. The data will also be safe, since the system uses the institutional database. These 2 are reflected as components as well. |
 |  |  | QA-6 | Selected reference architecture supports multiplatform |
 | QA-8 |  |  | No relevant decisions made. |
+|  | QA-9 |  | The communication between the client and server will use REST, same with the external systems. |
+|  | QA-10 |  | Interfaces for data integrity has been established in the reference architecture |
+|  | CON-1 |  | Selected reference architecture supports a secure authentication module |
+|  |  | CON-2 | Selected reference architecture supports multiplatform |
+| CON-3 |  |  | No relevant decisions made. |
+| CON-4 |  |  | No relevant decisions made. |
+|  |  | CON-5 | The system will uniquely store data in the institutional database, which is also represented as a component. |
+|  | CON-6 |  | Data storage is referred in the reference architecture |
+|  | CON-7 |  | Instances of an AI chatbot imply foundational prompt injection and data leakage protection |
+|  | CON-8 |  | The system will communicate with REST apis created by the institution for its external implementation. |
+| CON-9 |  |  | No relevant decisions made. |
+| CON-10 |  |  | No relevant decisions made. |
+|  |  | CRN-1 | The overall initial system structure was defined. |
+| CRN-2 |  |  | No relevant decisions made. |
+|  | CRN-3 |  | The team's knowledge was leveraged for aspects like frontend and backend architecture. |
+| CRN-4 |  |  | No relevant decisions made. |
+|  | CRN-5 |  | External Integration module implies some aspects of API limiting, cost-saving plans etc, with caching |
 
