@@ -86,3 +86,23 @@ A basic deployment diagram for the chosen architecture mentioned above. The data
 | Database Server | The server hosting the institutional DBMS. |
 | Authentication Service | The external service hosting the institutional authentication system. |
 | LMS | The external server hosting the university’s LMS. |
+
+
+# Step 7: Perform analysis of the current design and review the iteration goal and design objectives
+| Not Addressed  | Partially Addressed  | Completely Addressed | Design Decisions made during the iteration |
+| :---- | :---- | :---- | :---- |
+|  |  | UC-1 | The AI chatbot component was implemented in the reference architecture.  |
+|  | UC-2 |  | The external services were portrayed with a facade interface in the reference architecture |
+|  | UC-3 |  | The notifications component was implemented in the reference architecture. |
+|  |  | UC-4 | The general UI for the lecturers was mentioned in the Rich UI/Presentation component in our reference architecture. |
+|  | UC-5 |  | An interface of operational management was initiated in the reference architecture |
+|  | UC-6 |  | The AI assistant was mentioned as the AI chatbot component, and notifications are implemented as a component as well. |
+|  | UC-7 |  | An interface of operational management was initiated in the reference architecture |
+| QA-1 |  |  | No relevant decisions made. |
+|  | QA-2 |  | The chosen reference architecture has the client isolated storage, which will store cache in case of limited connectivity.    |
+| QA-3 |  |  | No relevant decisions made. |
+|  |  | QA-4 | Selected reference architecture supports a strong, rich UI  |
+|  |  | QA-5 | The selected reference architecture supports authentication, which will be provided by the institutional sign in. The data will also be safe, since the system uses the institutional database. These 2 are reflected as components as well. |
+|  |  | QA-6 | Selected reference architecture supports multiplatform |
+| QA-8 |  |  | No relevant decisions made. |
+
