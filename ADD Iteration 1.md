@@ -29,6 +29,7 @@ Since we are designing the overall system in the initial iteration, we will cons
 
 # Step 6: Sketch views and record design decisions
 Reference Architecture
+<br><br>
 <img width="780" height="1106" alt="image" src="https://github.com/user-attachments/assets/093759c7-9a3c-4be3-a6f8-3c2457b87b0b" />
 
 
