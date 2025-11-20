@@ -139,7 +139,7 @@ Lastly, here are the entities and their relationships to each other.
 | AIModelConfiguration | Uses | APIKey | 1 \-\> 1 |
 | InstitutionalIntegration | Uses | APIKey | 1 \-\> N (an integration may need multiple api endpoints with different keys) |
 
-Step 6: Sketch Views and Record Design Decisions
+# Step 6: Sketch Views and Record Design Decisions
 
 Initial domain model
 
@@ -154,10 +154,10 @@ Modules that support the Primary Use Case
 
 <img width="611" height="2211" alt="Diagram drawio" src="https://github.com/user-attachments/assets/3c98a3f5-b9b1-4a7e-ac14-73f7aa2f9b0a" />
 
-**Element                                           -------------------------- Responsibility**
-
-| AdminDashboardView | Displays administrative information such as policies, integrations, and usage statistics. This component embodies both UI components and UI process components from the reference architecture. |
+<br><br>
+| **Element** | **Responsibility** |
 | :---- | :---- |
+| AdminDashboardView | Displays administrative information such as policies, integrations, and usage statistics. This component embodies both UI components and UI process components from the reference architecture. |
 | MaintainerDashboardView | Displays system monitoring information including errors, logs, backups, and model configuration. This component updates its view when new maintenance data is received from the system. |
 | DashboardController | Responsible for providing necessary information to the presentation layer for both administrative and maintenance dashboards |
 | ClientRequestManager | Responsible for communication with the server-side logic |
@@ -179,7 +179,7 @@ Modules that support the Primary Use Case
 | AIConfigDataMapper | Responsible for persistence operations (CRUD) related to AI Model Configuration settings |
 
 
-Sequence diagram for UCI-5.
+Sequence diagram for UC-5.
 
 This diagram  shows the sequence of steps for UC-5, where an administrator logs in and opens the system dashboard. After the dashboard loads, it asks the server for the list of current global policies. The request is handled through the AdminService, and the PolicyController retrieves all the policies from the PolicyDataMapper. Once the data is returned, the dashboard displays the policies so the administrator can review and manage them.
 
@@ -199,7 +199,7 @@ This diagram  shows the sequence of steps for UC-5, where an administrator logs 
 
 
 
-Sequence Diagram for UCI-7
+Sequence Diagram for UC-7
 
 This diagram  illustrates the sequence for UC-7, where a system maintainer checks the system’s health. After logging in, the maintainer opens the monitoring dashboard, which immediately requests the most recent error logs from the server. The MonitoringService forwards this to the MonitoringController, which collects the latest errors from the SystemErrorDataMapper. The results are then sent back to the dashboard so the maintainer can review any issues and take action if needed.
 
@@ -210,8 +210,8 @@ This diagram  illustrates the sequence for UC-7, where a system maintainer check
 
 | Element | Methods |
 | :---- | :---- |
-| Dashboard Controller | **void requestRecentErrors()**Forwards a request to the monitoring service through the client request manager.  |
-| ClientRequestManager | **Response sendRequest**Responsible for handling monitoring requests and communicating with the server side.  |
+| Dashboard Controller | **void requestRecentErrors()** Forwards a request to the monitoring service through the client request manager.  |
+| ClientRequestManager | **Response sendRequest()** Responsible for handling monitoring requests and communicating with the server side.  |
 | MonitoringService | **ErrorList getRecentErrors()** Entry method exposed in the monitoring service interface. |
 | MonitoringController | **ErrorList fetchRecentErrors(int limit)** Contains business logic for retrieving recent system errors. |
 | SystemErrorDataMapper | **ErrorList retrieveRecent(int limit)** Returns the most recent system error entries from the database. |
