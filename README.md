@@ -20,10 +20,10 @@ The AI-Powered Digital Assistant Platform (AIDAP) aims to provide students, facu
 | Name | ID | Responsibility |
 | :--- | :---: | :---: |
 | Tavan Mohammed | 100906916 |  Sequence diagrams, Domain Model, Domain Objects, Layered Diagram, Step 6, Step 7, Step 5,  of iteration 2  |
-| William Lévesque | 100916180 | Quality attribute scenario, Deploymend Model Step 1, 4, 5, 6, 7 of Iteration 1, Step 5 of iteration 2 |
+| William Lévesque | 100916180 | Quality attribute scenario, Deployment Model Step 1, 4, 5, 6, 7 of Iteration 1, Step 5 of iteration 2 |
 | Saif Siddiqui | 100862747 | Step 1, 2, 3, 6, 7 of iteration 1, Reference Architecture model, Step 2, 3, 4 of Iteration 2  |
 
 
 ## Navigation
-In Phase 2, our team underwent the process of completing iterations 1 and 2 of the ADD process for architecting the AIDAP system. Defining components, behaviour, and structure.
+In Phase 2, our team completed iterations 1 and 2 of the ADD process for architecting the AIDAP system. Defining components, behaviour, and structure.
 Both Iteration 1 and 2, with all 7 steps, are located in the ADD Iteration 1.md and ADD Iteration 2.md, respectively.
