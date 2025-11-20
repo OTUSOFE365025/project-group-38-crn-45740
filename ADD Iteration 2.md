@@ -1,3 +1,28 @@
+# Step 2: Establish Iteration Goal by Selecting Drivers
+For iteration 2, we will address the rest of the architectural concerns that were not deeply covered in iteration 1.
+In this iteration, as system architects, we will consider the primary use cases to be:
+- UC-5
+- UC-6
+- UC-7
+
+# Step 3: Choose One or More Elements of the System to Refine
+The elements that will be refined in this iteration are the modules located in the different layers of the server architecture, and in the browser of the client side. In general, the functionality of the system requires the collaboration of many components from many different layers.
+
+# Step 4: Choose One or More Design Concepts
+
+
+| Design Decisions and Locations | Rationale and Assumptions |
+| :---- | :---- |
+| Create a domain model for the application | Need to know how the components interact with each other |
+| Facade | The facade will be used for the interaction between our system and the external ones. This will let the other components have an easy interface to interact with them, without tight coupling. Related to most use cases, QA-8, CON-6 and CON-8. |
+| Pub-Sub | The pub-sub will be used when dealing with notifications and campus-wide announcements. Related to UC-3 and UC-6. Due to it being easily scalable due to its decoupled nature, it can also fulfill part of CON-3. |
+| Adapter | An adapter is utilized for systems that require different formats that might not be compatible with each other alone, such as different types of API(REST or GraphQL), different types of user input(text, speech) and different types of systems(mobile, web) related to UC-1, UC-6, QA-6, QA-8, QA-9, |
+| Proxy | Proxy is used for structuring how APIs are called for the external services, and add specific logic for certain endpoints, related to UC-7, QA-9, CRN-5 |
+
+
+
+
+
 # Step 5: Instantiate Architectural Elements, Allocate Responsibilities
 
 To begin, we created a domain model for our driving use cases. Here are the initial domain objects per use case, using the nouns.
