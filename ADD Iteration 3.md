@@ -1,6 +1,10 @@
 Include in this file the 7 steps for Iteration 3
 
 
+**ATAM Utility Tree**
+
+Below is the utility tree containing the 10 QAs described. 
+<img width="2012" height="961" alt="image" src="https://github.com/user-attachments/assets/aea17294-cbdb-4bd4-9d08-028e1494d4bf" />
 
 
 **ATAM Risk Assessment:**
