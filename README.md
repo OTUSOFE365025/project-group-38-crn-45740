@@ -27,3 +27,14 @@ The AI-Powered Digital Assistant Platform (AIDAP) aims to provide students, facu
 ## Navigation
 In Phase 2, our team completed iterations 1 and 2 of the ADD process for architecting the AIDAP system. Defining components, behaviour, and structure.
 Both Iteration 1 and 2, with all 7 steps, are located in the ADD Iteration 1.md and ADD Iteration 2.md, respectively.
+
+# Phase 3:
+## Responsability Matrix
+| Name | ID | Responsibility |
+| :--- | :---: | :---: |
+| Tavan Mohammed | 100906916 | Iteration 3 |
+| William Lévesque | 100916180 | ATAM Utility Tree |
+| Saif Siddiqui | 100862747 | ATAM Risk Assessment |
+
+## Navigation
+In phase 3, our team completed iteration 3 of the ADD process, and made a utility ttree and risk assesment for ATAM. These are all located in ADD Iteration 3.md
